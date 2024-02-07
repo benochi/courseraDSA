@@ -21,3 +21,5 @@ function validAnagram(str1, str2){
 }
 
 console.log(validAnagram('anagram', 'nagaram')); // true
+console.log(validAnagram('dog', 'goat')); // False
+console.log(validAnagram('animal', 'lanima')); // true
