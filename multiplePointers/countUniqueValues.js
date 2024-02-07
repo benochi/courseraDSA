@@ -25,7 +25,6 @@ function countUniqueValues(arr){
       arr[i] = arr[j]; 
     }
   }
-
   return i + 1;
 }
 
