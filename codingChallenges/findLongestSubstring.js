@@ -12,12 +12,9 @@ function findLongestSubstring(str){
     const char = str[i]
     if(map[char] !== undefined && map[char] >= first){
       first = map[char] +1;
-      console.log("first", first)
     }
     map[char] = i;
-    console.log(map)
     max = Math.max(max, i - first + 1);
-    console.log("max", max)
   }
   return max;
 }
