@@ -6,7 +6,7 @@
 
 function power(b, ex){
   if(ex === 0) return 1;
-  return b *= power(b, ex-1)
+  return b * power(b, ex-1)
 }
 
 console.log(power(2,0)) // 1
