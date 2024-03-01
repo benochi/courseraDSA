@@ -18,3 +18,4 @@ function binarySearch(arr, val, left=0, right=arr.length-1){
 }
 
 console.log(binarySearch(sortedIntArray, 40))
+console.log(binarySearch(sortedIntArray, 4000))
