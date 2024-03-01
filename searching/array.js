@@ -9,4 +9,6 @@ const strArray = [
   'boulder', 'golden'
 ]
 
-module.exports = { intArray, strArray };
+const sortedIntArray = [1, 4, 14, 15, 35, 40, 43, 45, 47, 48, 49, 50, 67, 71, 72, 74, 90, 94, 98, 99]
+
+module.exports = { intArray, strArray, sortedIntArray };
