@@ -22,3 +22,4 @@ console.log(naiveSearch("haha", "omg"))//0
 console.log(naiveSearch("smileyboy", "smile")) //1
 console.log(naiveSearch("smiley boy dur", " ")) //2
 console.log(naiveSearch("omgomgomgomg", "omg")) //4
+console.log(naiveSearch("Goated", "G")) //1
